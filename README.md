@@ -1,3 +1,5 @@
 # odin-recipes
-A basic webpage for a test
+Mt first website.
+
+learning to make and push repositories.
 
