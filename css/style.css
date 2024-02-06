@@ -4,7 +4,8 @@
 }
 
 body {
-    background: #fff0;
+    background-color: rgb(64, 39, 126);
+    color: aliceblue;
     margin: 10px;
     padding: 10px;
 }
@@ -17,9 +18,12 @@ img {
 .index-list {
     margin-top: 1rem;
     display: flex;
+    flex-direction: row;
 }
 
 .index-list a {
+    border: solid 2px gold;
+    color: aliceblue;
     flex: 1;
     text-decoration: none;
 }
