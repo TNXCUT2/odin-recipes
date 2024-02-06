@@ -5,18 +5,30 @@
 
 body {
     background-color: rgb(64, 39, 126);
-    color: aliceblue;
     margin: 10px;
     padding: 10px;
 }
 
 img {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 350px;
     margin: 20px;
+    border: 2px solid gold;
+    border-radius: 50%;
 }
 
-.flex-container {
+h1 {
+    text-shadow: 3px 3px #000000;
+    font-size: 60px;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.flex-container,
+.everything {
     display: flex;
     flex-direction: column;
     border: 2px solid gold;
@@ -25,7 +37,8 @@ img {
 }
 
 .title {
-    
+    font-weight: 1000;
+    margin-bottom: .5em;
 }
 
 .index-list {
@@ -36,11 +49,12 @@ img {
     align-items: center;
 }
 
-.index-list a {
+.index-list a,
+.everything {
     border: solid 2px gold;
     color: gold;
     flex: 1;
-    padding: 10px;
+    padding: 10px 50px 10px 50px;
     text-decoration: none;
     align-content: space-around;
 }
