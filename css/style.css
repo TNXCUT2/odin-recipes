@@ -58,3 +58,15 @@ h3 {
     text-decoration: none;
     align-content: space-around;
 }
+
+.recipe li {
+    margin-bottom: 10px;
+}
+
+.pics {
+    display: flex;
+}
+
+.pics img {
+    flex-direction: column;
+}
