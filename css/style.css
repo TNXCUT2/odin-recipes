@@ -66,6 +66,8 @@ h3 {
 /* Home page pictures */
 .pics {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pics img {
